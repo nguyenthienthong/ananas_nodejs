@@ -1,4 +1,4 @@
-APIbestSeller = "http://localhost:3001/v1/products/best_seller/1";
+APIbestSeller = "http://localhost:3000/v1/products/best_seller/1";
 
 let bestSeller = document.querySelector(".best-seller");
 console.log(bestSeller);

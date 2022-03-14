@@ -134,7 +134,7 @@ header.innerHTML = `
   `;
 
 let sale_top = document.querySelector(".sale-top");
-APIseller = "http://localhost:3001/v1/seller";
+APIseller = "http://localhost:3000/v1/seller";
 fetch(APIseller)
   .then((res) => {
     return res.json();

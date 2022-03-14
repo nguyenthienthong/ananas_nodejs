@@ -1,6 +1,6 @@
-const ApiUsers = "http://localhost:3001/v1/users";
-const ApiProducts = "http://localhost:3001/v1/products";
-const ApiCategory = "http://localhost:3001/v1/category";
+const ApiUsers = "http://localhost:3000/v1/users";
+const ApiProducts = "http://localhost:3000/v1/products";
+const ApiCategory = "http://localhost:3000/v1/category";
 
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);

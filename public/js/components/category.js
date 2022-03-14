@@ -1,4 +1,4 @@
-const ApiCategory = "http://localhost:3001/v1/category";
+const ApiCategory = "http://localhost:3000/v1/category";
 let product_line = document.querySelector(".product_line");
 function line() {
   fetch(ApiCategory)
@@ -16,7 +16,7 @@ function line() {
     });
 }
 function renderCategory(id) {
-  const ApiProducts = "http://localhost:3001/v1/products";
+  const ApiProducts = "http://localhost:3000/v1/products";
   fetch(ApiProducts + "/" + id)
     .then((res) => {
       return res.json();
@@ -28,7 +28,7 @@ function renderCategory(id) {
 
 let product_items = document.querySelector(".list-products");
 function renderCategory() {
-  const ApiProducts = "http://localhost:3001/v1/products";
+  const ApiProducts = "http://localhost:3000/v1/products";
   let params = new URLSearchParams(location.search);
   let id = params.get("id");
   fetch(ApiProducts + "?id_category=" + id)

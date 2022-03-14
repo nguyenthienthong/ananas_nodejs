@@ -1,4 +1,4 @@
-let ApiUsers = "http://localhost:3001/v1/users";
+let ApiUsers = "http://localhost:3000/v1/users";
 let error = document.querySelector(".error-message");
 
 // Info register

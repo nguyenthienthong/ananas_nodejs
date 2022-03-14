@@ -1,4 +1,4 @@
-const ApiProducts = "http://localhost:3001/v1/products";
+const ApiProducts = "http://localhost:3000/v1/products";
 let product_item = document.querySelector(".list-products");
 let ip_search = document.querySelector(".form-group .search");
 

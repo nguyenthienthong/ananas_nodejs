@@ -57,7 +57,7 @@ function renderInfo() {
     currency: "VND",
   });
 }
-let ApiUsers = "http://localhost:3001/v1/users";
+let ApiUsers = "http://localhost:3000/v1/users";
 
 function completeCart() {
   let id = localStorage.getItem("id");
@@ -96,7 +96,7 @@ function completeCart() {
   localStorage.setItem("quantily", 0);
   window.open("/success", "_self");
 }
-let APIhistory = "http://localhost:3001/v1/history_buy";
+let APIhistory = "http://localhost:3000/v1/history_buy";
 function addHistory() {
   let arr = [];
   product_detail.map((db) => {
